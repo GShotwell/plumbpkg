@@ -9,7 +9,7 @@ echo <- function(msg) {
 n_plot <- function(n) {
   n <- as.numeric(n)
   if (n > 1e6) stop("n must be less than or equal to 1e6", call. = FALSE)
-  graphics::hist(stats::rnorm(n))
+  ggplot2::qplot(n)
 }
 
 add <- function(x, y) {

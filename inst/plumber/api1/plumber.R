@@ -1,4 +1,5 @@
 library(plumber)
+devtools::load_all()
 
 #* @apiTitle Simple API
 

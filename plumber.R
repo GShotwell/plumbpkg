@@ -1,6 +1,5 @@
 library(plumber)
-devtools::load_all()
-
+pkgload::load_all(export_all = FALSE, helpers = FALSE, attach_testthat = FALSE)
 #* @apiTitle Simple API
 
 #* Return hello world
